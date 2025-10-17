@@ -18,6 +18,7 @@ public:
 
   Reader& reader() { return output_.reader(); }
   const Reader& reader() const { return output_.reader(); }
+  Writer &writer() { return output_.writer(); }
   const Writer& writer() const { return output_.writer(); }
 
 private:
